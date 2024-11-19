@@ -6,7 +6,7 @@ This project analyzes patient treatment and symptoms related to adverse events i
 
 - [Introduction](#introduction)
 - [Project Workflow](#project-workflow)
-  - [1. Data Cleaning](#1-data-cleaning) ([file](./Data_clean.ipynb))
+  - [1. Data Cleaning](#1-data-cleaning) ([file](./Data_Cleaning.ipynb))
   - [2. Preprocess Combined Data](#2-preprocess-combined-data)
   - [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)
   - [4. Topic Modeling](#4-topic-modeling)
