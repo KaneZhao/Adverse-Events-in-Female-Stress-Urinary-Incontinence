@@ -6,12 +6,12 @@ This project analyzes patient treatment and symptoms related to adverse events i
 
 - [Introduction](#introduction)
 - [Project Workflow](#project-workflow)
-  - [1. Data Cleaning](#1-data-cleaning)
+  - [1. Data Cleaning](#1-data-cleaning) ([file](./Data_clean.ipynb))
   - [2. Preprocess Combined Data](#2-preprocess-combined-data)
   - [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)
   - [4. Topic Modeling](#4-topic-modeling)
   - [5. Semi-supervised Learning](#5-semi-supervised-learning)
-  - [6. Sentiment Analysis](#6-sentiment-analysis)
+  - [6. Text Classification](#6-text-classification)
   - [7. Chatbot](#7-chatbot)
 - [Usage](#usage)
 - [Results](#results)
@@ -57,7 +57,7 @@ Implemented a semi-supervised learning approach to label the data. The process i
 - Using manually labeled data
 - Applying label propagation to infer labels for the unlabeled data
 
-### 6. Sentiment Analysis
+### 6. Text Classification
 
 Performed sentiment classification on the dataset, identifying the severity of symptoms from the text, with labels ranging from 'least severe' to 'most severe.'
 
