@@ -7,12 +7,12 @@ This project analyzes patient treatment and symptoms related to adverse events i
 - [Introduction](#introduction)
 - [Project Workflow](#project-workflow)
   - [1. Data Cleaning](#1-data-cleaning) ([file](./Data_Cleaning.ipynb))
-  - [2. Preprocess Combined Data](#2-preprocess-combined-data)
-  - [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)
-  - [4. Topic Modeling](#4-topic-modeling)
-  - [5. Semi-supervised Learning](#5-semi-supervised-learning)
-  - [6. Text Classification](#6-text-classification)
-  - [7. Chatbot](#7-chatbot)
+  - [2. Preprocess Combined Data](#2-preprocess-combined-data) ([file](./Preprocess_Combined_Data.ipynb))
+  - [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda) ([file](./EDA.ipynb))
+  - [4. Topic Modeling](#4-topic-modeling) ([file](./Topic_Modelling.ipynb))
+  - [5. Semi-supervised Learning](#5-semi-supervised-learning) ([file](./Semi_Supervised_Learning.ipynb))
+  - [6. Text Classification](#6-text-classification) ([file](./Text_Classification.ipynb))
+  - [7. Chatbot](#7-chatbot) ([file](./ChatBot.ipynb))
 - [Usage](#usage)
 - [Results](#results)
 
@@ -54,7 +54,8 @@ Built LDA and NMF models to extract key topics from the patient narratives. The 
 
 Implemented a semi-supervised learning approach to label the data. The process involved:
 
-- Using manually labeled data
+- Using chatgpt to label data
+- Using a zero-shot classification method to expand the labeled dataset
 - Applying label propagation to infer labels for the unlabeled data
 
 ### 6. Text Classification
