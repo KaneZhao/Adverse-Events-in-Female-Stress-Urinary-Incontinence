@@ -13,8 +13,6 @@ This project analyzes patient treatment and symptoms related to adverse events i
   - [5. Semi-supervised Learning](#5-semi-supervised-learning) ([file](./Semi_Supervised_Learning.ipynb))
   - [6. Text Classification](#6-text-classification) ([file](./Text_Classification.ipynb))
   - [7. Chatbot](#7-chatbot) ([file](./ChatBot.ipynb))
-- [Usage](#usage)
-- [Results](#results)
 
 ## Introduction
 
